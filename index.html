@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airplane Seats</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <form id="form">
+                <p>Please type 1 for aisle seat</p>
+                <p>Please type 2 for window seat</p>
+                <p>Please type 3 for middle seat</p>
+                <input style="border-radius:3px" id="number" type="text" size="5" />
+                <br>
+                <input type="button" value="Make Reservation" onclick="check()" />
+        </div>
+        
+        <div class="table-one">
+            <span class="window"></span>
+            <span class="middle"></span>
+            <span class="aisle"></span>
+            <div style="margin-top: 30px;">
+                <span class="window"></span>
+                <span class="middle"></span>
+                <span class="aisle"></span>
+            </div>
+        </div>
+
+        <div class="table-two">
+            <span class="aisle"></span>
+            <span class="middle"></span>
+            <span class="middle"></span>
+            <span class="aisle"></span>
+            <div style="margin-top: 30px;">
+                <span class="aisle"></span>
+                <span class="middle"></span>
+                <span class="middle"></span>
+                <span class="aisle"></span>
+            </div>
+            <div style="margin-top: 30px;">
+                <span class="aisle"></span>
+                <span class="middle"></span>
+                <span class="middle"></span>
+                <span class="aisle"></span>
+            </div>
+        </div>
+
+        <div class="table-third">
+            <span class="aisle"></span>
+            <span class="aisle"></span>
+            <div style="margin-top: 30px;">
+                <span class="aisle"></span>
+                <span class="aisle"></span>
+            </div>
+            <div style="margin-top: 30px;">
+                <span class="aisle"></span>
+                <span class="aisle"></span>
+            </div>
+        </div>
+
+        <div class="table-four">
+            <span class="aisle"></span>
+            <span class="middle"></span>
+            <span class="window"></span>
+            <div style="margin-top: 30px;">
+                <span class="aisle"></span>
+                <span class="middle"></span>
+                <span class="window"></span>
+            </div>
+            <div style="margin-top: 30px;">
+                <span class="aisle"></span>
+                <span class="middle"></span>
+                <span class="window"></span>
+            </div>
+            <div style="margin-top: 30px;">
+                <span class="aisle"></span>
+                <span class="middle"></span>
+                <span class="window"></span>
+            </div>
+        </div>
+    </div>
+    <div class="create-seat" style="display:flex; color:white;">
+        <h2 style="color:black">Here Seats Pop Up :</h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
